@@ -1,0 +1,177 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+#search-bar{
+    position: absolute;
+    width: 360px;
+    height: 42px;
+    left: 40%;
+    top: 16px;
+
+    background: #F2F2F2;
+    border-radius: 21px;
+}
+#navblock{
+    display: block;
+    padding: 10px;
+    
+}
+.navbar-text{
+    padding:10px;
+    left: 40%;
+    top: 20px;
+
+}
+.cards{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    color:black
+}
+.class-title{
+    font-family: IBM Plex Sans;
+font-style: normal;
+}
+#transbut{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 5px;
+    padding-left: 40%;
+    padding-right: 40%;
+    background-color: white;
+    color: #02B875;
+    border-radius: 10px;
+    
+
+}
+#left{
+    position: absolute;
+    width: 220px;
+    height: 32px;
+    left: 1020px;
+    top: 717px;
+    
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+   
+}
+
+
+.card1{
+
+position: absolute;
+width: 720px;
+height: 440px;
+left: 200px;
+top: 628px;
+bottom: 100px;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+padding-bottom: 10px;
+}
+.card2{
+    
+width: 720px;
+height: 280px;
+bottom: 100px;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+padding-bottom: 10px;
+}
+.card{
+    width: 720px;
+    height: 460px;
+    border-bottom: 100px;
+    
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding-bottom: 10px;
+}
+#logo{
+    position: absolute;
+left: 5%;
+top:0%
+
+
+}
+
+#bg{
+
+    position: absolute;
+    width: 1440px;
+    height: 440px;
+    left: 0px;
+    top: 72px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+
+#line{
+    position: absolute;
+width: 1040px;
+height: 0px;
+left: 200px;
+top: 600px;
+
+border: 1px solid #E0E0E0;
+}
+
+#choice{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 11%;
+    right: 10%;
+    top: 559px;
+}
+#nav-item-2{
+    position: absolute;
+width: 133px;
+height: 36px;
+right:30%
+
+
+}
+.card-in{
+    display:block;
+}
+#nav-item-3{
+    position: absolute;
+width: 125px;
+height: 36px;
+right:20%;
+
+
+}
+hr{
+   width:80%;
+}
+#loc1{
+    color:black;
+}
